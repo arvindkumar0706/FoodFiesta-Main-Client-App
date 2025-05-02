@@ -41,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
         // ✅ Initialize signInClient here
         signInClient = com.google.android.gms.auth.api.identity.Identity.getSignInClient(this)
 
-        val clientId = "270094502602-01tho7ohhgvp3fj47nvnm4p47uj5lohv.apps.googleusercontent.com"
+        val clientId = "Google_client_ID"
         val signInRequest = BeginSignInRequest.builder()
             .setGoogleIdTokenRequestOptions(
                 BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
